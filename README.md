@@ -1,9 +1,9 @@
-# Enterprise Cybersecurity Homelab
+# Enterprise Homelab
 
 Enterprise-style virtualized infrastructure laboratory designed to practice
 system administration, networking and cybersecurity concepts.
 
-## :dart: Objectives
+## 🎯 Objectives
 
 - Build an enterprise-like virtual infrastructure
 - Configure network routing and firewalling
@@ -16,9 +16,9 @@ system administration, networking and cybersecurity concepts.
 - Monitor and test network connectivity and security controls
 - Document the complete infrastructure and validation tests
 
-## :construction_site: Architecture
+## 🏗️ Architecture
 
-The laboratory is built with Microsoft Hyper-V and OPNsense.
+The laboratory is built with Hyper-V.
 
 ### Main components
 
@@ -30,7 +30,7 @@ The laboratory is built with Microsoft Hyper-V and OPNsense.
 | Windows 11 Client 02 | Domain workstation | DHCP |
 | Debian | Linux server | 192.168.88.20 |
 
-## :closed_lock_with_key: Active Directory
+## 🔐 Active Directory
 
 The Windows Server infrastructure includes:
 
@@ -42,7 +42,7 @@ The Windows Server infrastructure includes:
 - Centralized authentication
 - Windows client domain integration
 
-## :globe_with_meridians: Network & Security
+## 🌐 Network & Security
 
 OPNsense provides:
 
@@ -54,7 +54,7 @@ OPNsense provides:
 
 Firewall and connectivity tests are documented in the `docs/` directory.
 
-## :file_folder: File Server
+## 📂 File Server
 
 The Windows Server provides SMB shares with role-based permissions.
 
@@ -72,7 +72,7 @@ Example:
 - `Groupe-RH` → RH share
 - `Domain Users` → Commun share
 
-## :test_tube: Validation Tests
+## 🧪 Validation Tests
 
 The infrastructure has been validated through tests including:
 
@@ -87,7 +87,7 @@ The infrastructure has been validated through tests including:
 - NTFS permissions
 - User/group authorization
 
-## :tools: Technologies
+## 🛠️ Technologies
 
 - Microsoft Hyper-V
 - OPNsense
@@ -101,7 +101,7 @@ The infrastructure has been validated through tests including:
 - NTFS
 - Debian Linux
 
-## :books: Documentation
+## 📚 Documentation
 
 Detailed documentation will be available in:
 
@@ -111,21 +111,20 @@ Detailed documentation will be available in:
 - `docs/firewall.md`
 - `docs/tests.md`
 
-## :rocket: Future Improvements
+## 🚀 Future Improvements
 
-Planned improvements include:
+Planned improvements:
 
-- Network segmentation and VLANs
-- Additional firewall rules
-- Centralized logging
-- SIEM integration
-- Security monitoring
-- Automated administration
-- Additional attack/defense scenarios
+- Docker, Docker Compose deployment on Debian
+- Network segmentation (VLANs)
+- Inter-VLAN routing and firewall rules in OPNsense
 
-## :man_technologist: Author
+ After this immprovements, the lab will be considered as finished.
+  
 
-Cybersecurity / Systems & Network Engineering Student
+## 👨‍💻 Author
+
+Cybersecurity / Systems & Network Engineering Student -> [GitHub](https://github.com/vln88)
 
 This project was built as a hands-on laboratory to develop practical skills
 in enterprise infrastructure, networking and cybersecurity.
