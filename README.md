@@ -105,11 +105,11 @@ The infrastructure has been validated through tests including:
 
 Detailed documentation will be available in:
 
-- `docs/architecture.md`
-- `docs/network.md`
-- `docs/active-directory.md`
-- `docs/firewall.md`
-- `docs/tests.md`
+- [Windows Server](docs/windows-server.md)
+- [OPNsense](docs/OPNsense.md)
+- [Windows Clients](docs/windows-clients.md)
+- [Debian Linux](docs/debian.md)
+- [Tests](docs/tests.md)
 
 ## 🚀 Future Improvements
 
