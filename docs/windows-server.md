@@ -6,9 +6,8 @@ A Windows Server virtual machine was deployed using Microsoft Hyper-V.
 
 The server was configured with the static IP address `192.168.88.10`.
 
-**foto 1**
+![Windows Server network config](../screenshots/server-network.png)
 
----
 
 ## 2. Active Directory Domain Services
 
@@ -16,13 +15,13 @@ Active Directory Domain Services was installed through Server Manager.
 
 The server was then promoted to a Domain Controller and the Active Directory domain was created.
 
-**foto 2**
+![Active Directory Domain Service](../screenshots/ad-ds.png)
 
 ### Organizational Units
 
 Several Organizational Units were created to organize users and computers according to their roles.
 
-**foto 3**
+![Active Directory OUs](../screenshots/OUs.png)
 
 ### Users and Groups
 
@@ -33,7 +32,7 @@ The main security groups are:
 - `Groupe-Informatique`
 - `Groupe-RH`
 
-**foto 4**
+![Active Directory users and groups](../screenshots/users-gruops.png)
 
 ---
 
@@ -43,7 +42,7 @@ DNS was configured as part of the Active Directory infrastructure.
 
 The Windows Server acts as the DNS server for the domain.
 
-**foto 5**
+![DNS config](../screenshots/dns.png)
 
 ---
 
@@ -51,7 +50,7 @@ The Windows Server acts as the DNS server for the domain.
 
 A DHCP scope was configured to provide network configuration to the Windows 11 clients.
 
-**foto 6**
+![DHCP pool](../screenshots/DHCP.png)
 
 ---
 
@@ -61,7 +60,7 @@ Group Policy Objects were created and linked to the appropriate Organizational U
 
 The policies were subsequently tested from the Windows 11 clients.
 
-**foto 7**
+![Group Policy config](../screenshots/gpo.png)
 
 ---
 
@@ -79,7 +78,7 @@ The corresponding directories are:
 - `C:\Shares\IT`
 - `C:\Shares\RH`
 
-**foto 8**
+![File server shares](../screenshots/file-server.png)
 
 ### NTFS Permissions
 
@@ -93,4 +92,4 @@ Access was controlled using Active Directory security groups.
 
 The permissions were validated from the Windows 11 clients.
 
-![File server permissions](../screenshots/windows-server/ntfs-permissions.png)
+![File server permissions](../screenshots/ntfs-permissions.png)
