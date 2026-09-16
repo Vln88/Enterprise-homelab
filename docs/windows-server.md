@@ -49,7 +49,7 @@ The Windows Server acts as the DNS server for the domain.
 
 A DHCP scope was configured to provide network configuration to the Windows 11 clients.
 
-![DHCP pool](../screenshots/DHCP.png)
+![DHCP pool](../screenshots/dhcp.png)
 
 ---
 
