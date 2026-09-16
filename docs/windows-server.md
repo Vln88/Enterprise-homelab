@@ -32,7 +32,7 @@ The main security groups are:
 - `Groupe-Informatique`
 - `Groupe-RH`
 
-![Active Directory OUs](../screenshots/OU.png)
+![Active Directory OUs](../screenshots/OUs.png)
 
 
 ## 3. DNS
