@@ -32,7 +32,7 @@ The main security groups are:
 - `Groupe-Informatique`
 - `Groupe-RH`
 
-![Active Directory users and groups](../screenshots/users-gruops.png)
+![Active Directory users and groups](../screenshots/users-groups.png)
 
 ---
 
