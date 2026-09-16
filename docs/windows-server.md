@@ -21,7 +21,7 @@ The server was then promoted to a Domain Controller and the Active Directory dom
 
 Several Organizational Units were created to organize users and computers according to their roles.
 
-![Active Directory OUs](../screenshots/OUs.png)
+![Active Directory users and groups](../screenshots/users-groups.png)
 
 ### Users and Groups
 
@@ -32,9 +32,8 @@ The main security groups are:
 - `Groupe-Informatique`
 - `Groupe-RH`
 
-![Active Directory users and groups](../screenshots/users-groups.png)
+![Active Directory OUs](../screenshots/OU.png)
 
----
 
 ## 3. DNS
 
