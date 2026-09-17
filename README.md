@@ -111,6 +111,41 @@ Detailed documentation will be available in:
 - [Debian Linux](docs/debian.md)
 - [Tests](docs/tests.md)
 
+## What I Learned
+
+This project allowed me to gain practical experience in designing, deploying and troubleshooting an **small** enterprise-style IT infrastructure.
+
+Thanks to this lab, I learned how to:
+
+- Deploy and manage virtual machines using Microsoft Hyper-V.
+- Configure OPNsense as a firewall, gateway and network security.
+- Design and configure a local IPv4 network.
+- Install and manage Windows Server.
+- Deploy and manage Active Directory Domain Services.
+- Create and organize Organizational Units, users and security groups.
+- Configure DNS for an Active Directory environment.
+- Configure DHCP and manage IP address allocation.
+- Create and apply Group Policy Objects (GPOs).
+- Join Windows 11 clients to an Active Directory domain.
+- Configure an SMB file server.
+- Manage NTFS permissions and access control using Active Directory security groups.
+- Configure a Debian server with a static IP address.
+- Troubleshoot network connectivity and DNS issues.
+- Analyze firewall traffic and logs using OPNsense.
+- Validate network communication between Windows and Linux systems.
+- Perform practical troubleshooting when configurations did not work as expected.
+- Document an IT infrastructure and its validation process.
+
+### Troubleshooting Experience
+
+During the deployment, I encountered issues related to network configuration, firewall traffic visibility, DNS resolution and file permissions.
+
+These problems helped me develop a more systematic troubleshooting approach:
+
+**Identify the problem -> Analyze the configuration -> Test possible causes -> Apply a solution -> Validate the result.**
+
+This project therefore provided practical experience not only in system administration and networking, but also in troubleshooting and infrastructure security.
+
 ## 🚀 Future Improvements
 
 Planned improvements:
@@ -124,7 +159,7 @@ Planned improvements:
 
 ## 👨‍💻 Author
 
-Cybersecurity / Systems & Network Engineering Student -> [GitHub](https://github.com/vln88)
+Cybersecurity / Systems & Network Student -> [GitHub](https://github.com/vln88)
 
 This project was built as a hands-on laboratory to develop practical skills
 in enterprise infrastructure, networking and cybersecurity.
