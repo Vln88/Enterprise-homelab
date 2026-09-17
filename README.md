@@ -72,7 +72,7 @@ Example:
 - `Groupe-RH` → RH share
 - `Domain Users` → Commun share
 
-## 🧪 Validation Tests
+## ✅ Validation Tests
 
 The infrastructure has been validated through tests including:
 
