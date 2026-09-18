@@ -24,7 +24,7 @@ The DNS server is the Windows Server:
 
 `192.168.88.10`
 
-The network configuration was made persistent using `/etc/network/interfaces`.
+The network configuration was made persistent using `cat /etc/network/interfaces`.
 
 ![Debian network configuration](../screenshots/debian-network.png)
 
