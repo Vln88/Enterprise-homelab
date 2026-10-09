@@ -150,9 +150,10 @@ This project therefore provided practical experience not only in system administ
 
 Planned improvements:
 
-- Docker, Docker Compose deployment on Debian
+- Docker, Docker Compose deployment on Debian ✅
 - Network segmentation (VLANs)
 - Inter-VLAN routing and firewall rules in OPNsense
+- Maybe WDS and MDT
 
  After this immprovements, the lab will be considered as finished.
   
